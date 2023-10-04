@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Approved" xml:space="preserve">
+    <value>Freigegeben</value>
+  </data>
+  <data name="AxialDegrees" xml:space="preserve">
+    <value>Axial</value>
+  </data>
+  <data name="Beams" xml:space="preserve">
+    <value>Beams</value>
+  </data>
+  <data name="Birthdate" xml:space="preserve">
+    <value>Geburtstag</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CI" xml:space="preserve">
+    <value>CI</value>
+  </data>
+  <data name="Collimator" xml:space="preserve">
+    <value>Kollimator</value>
+  </data>
+  <data name="Commisioned" xml:space="preserve">
+    <value>Kommissionierung</value>
+  </data>
+  <data name="Contours" xml:space="preserve">
+    <value>Kontouren</value>
+  </data>
+  <data name="Coverage" xml:space="preserve">
+    <value>Abdeckung</value>
+  </data>
+  <data name="D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Dose" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="DoseVolumeHistograms" xml:space="preserve">
+    <value>Dosis Volumen Histogramme</value>
+  </data>
+  <data name="DryRun" xml:space="preserve">
+    <value>Trockenlauf</value>
+  </data>
+  <data name="DVHs" xml:space="preserve">
+    <value>DVHs</value>
+  </data>
+  <data name="DVSpacing" xml:space="preserve">
+    <value>DV Abstand</value>
+  </data>
+  <data name="F" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="FractionMU" xml:space="preserve">
+    <value>Fraktion</value>
+  </data>
+  <data name="Fractions" xml:space="preserve">
+    <value>Fraktionen</value>
+  </data>
+  <data name="GI" xml:space="preserve">
+    <value>GI</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Indices" xml:space="preserve">
+    <value>Indizes</value>
+  </data>
+  <data name="IsocenterId" xml:space="preserve">
+    <value>IZ</value>
+  </data>
+  <data name="Isocenters" xml:space="preserve">
+    <value>Isozentren</value>
+  </data>
+  <data name="LINACEnergy" xml:space="preserve">
+    <value>LINAC Energie</value>
+  </data>
+  <data name="LINACEnergyText" xml:space="preserve">
+    <value>3 MV</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="MaxDose" xml:space="preserve">
+    <value>Max Dosis</value>
+  </data>
+  <data name="MaximumDose" xml:space="preserve">
+    <value>Maximale Dosis</value>
+  </data>
+  <data name="MeanDose" xml:space="preserve">
+    <value>Mean Dosis</value>
+  </data>
+  <data name="MedicalId" xml:space="preserve">
+    <value>Medizinische Id</value>
+  </data>
+  <data name="MinDose" xml:space="preserve">
+    <value>Min Dosis</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="nCI" xml:space="preserve">
+    <value>nCI</value>
+  </data>
+  <data name="NodeId" xml:space="preserve">
+    <value>Node</value>
+  </data>
+  <data name="ObliqueDegrees" xml:space="preserve">
+    <value>Oblique</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="Patient" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="PatientInformation" xml:space="preserve">
+    <value>Patienten Informationen</value>
+  </data>
+  <data name="PatientName" xml:space="preserve">
+    <value>Patientname</value>
+  </data>
+  <data name="PDFCreator" xml:space="preserve">
+    <value>ZAP-X TPS</value>
+  </data>
+  <data name="PDFProducer" xml:space="preserve">
+    <value>ZapPlanReport</value>
+  </data>
+  <data name="PDFSubjectPlan" xml:space="preserve">
+    <value>ZAP Report</value>
+  </data>
+  <data name="PDFSubjectTreatment" xml:space="preserve">
+    <value>Behandlung</value>
+  </data>
+  <data name="PDFTitle" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="Physician" xml:space="preserve">
+    <value>Arzt</value>
+  </data>
+  <data name="Physicist" xml:space="preserve">
+    <value>Medizinphysikexperte</value>
+  </data>
+  <data name="Plan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="PlanInformation" xml:space="preserve">
+    <value>Plan Informationen</value>
+  </data>
+  <data name="PlanMU" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="Planname" xml:space="preserve">
+    <value>Planname</value>
+  </data>
+  <data name="PlanReportTitle" xml:space="preserve">
+    <value>Bestrahlungsplanung</value>
+  </data>
+  <data name="PrescriptionDose" xml:space="preserve">
+    <value>Verschriebene Dosis</value>
+  </data>
+  <data name="PrescriptionIsodose" xml:space="preserve">
+    <value>Verschriebene Isodose</value>
+  </data>
+  <data name="PrimarySeries" xml:space="preserve">
+    <value>Primäre Serie</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Neu laden</value>
+  </data>
+  <data name="SavedDate" xml:space="preserve">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="SecondarySeries" xml:space="preserve">
+    <value>Sekundäre Serie</value>
+  </data>
+  <data name="Sex" xml:space="preserve">
+    <value>Geschlecht</value>
+  </data>
+  <data name="Signs" xml:space="preserve">
+    <value>Unterschrift</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>Simulation</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="SystemInformation" xml:space="preserve">
+    <value>System Informationen</value>
+  </data>
+  <data name="SystemText" xml:space="preserve">
+    <value>ZAP-X - {0}</value>
+  </data>
+  <data name="TPSVersion" xml:space="preserve">
+    <value>TPS Version</value>
+  </data>
+  <data name="TreatmentReportTitle" xml:space="preserve">
+    <value>Behandlung</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="VOIs" xml:space="preserve">
+    <value>VOIs</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="GraphicsDose" xml:space="preserve">
+    <value>Dosis [cGy]</value>
+  </data>
+  <data name="GraphicsVolume" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max [cGy]</value>
+  </data>
+  <data name="Mean" xml:space="preserve">
+    <value>Mean [cGy]</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Min [cGy]</value>
+  </data>
+  <data name="NumOfBeams" xml:space="preserve">
+    <value># der Beams</value>
+  </data>
+  <data name="NumOfFractions" xml:space="preserve">
+    <value># der Fraktionen</value>
+  </data>
+  <data name="NumOfIsocenters" xml:space="preserve">
+    <value># der Isozentren</value>
+  </data>
+  <data name="Plannames" xml:space="preserve">
+    <value>Plannamen</value>
+  </data>
+  <data name="Plans" xml:space="preserve">
+    <value>Pläne</value>
+  </data>
+  <data name="PrescribedDose" xml:space="preserve">
+    <value>Verschriebene Dosis [cGy]</value>
+  </data>
+  <data name="PrescribedIsodose" xml:space="preserve">
+    <value>Verschriebene Isodose</value>
+  </data>
+  <data name="Structures" xml:space="preserve">
+    <value>Strukturen</value>
+  </data>
+  <data name="TotalMU" xml:space="preserve">
+    <value>Gesamte MUs</value>
+  </data>
+  <data name="PhysicistShort" xml:space="preserve">
+    <value>MPE</value>
+  </data>
+  <data name="PlanCompare" xml:space="preserve">
+    <value>Planvergleich</value>
+  </data>
+  <data name="PlanReport" xml:space="preserve">
+    <value>Plan Report</value>
+  </data>
+  <data name="Archived" xml:space="preserve">
+    <value>Archiviert</value>
+  </data>
+  <data name="FromDoseVolume" xml:space="preserve">
+    <value>Vom Dosiswürfel</value>
+  </data>
+  <data name="FromStructureBrain" xml:space="preserve">
+    <value>Von der Struktur</value>
+  </data>
+  <data name="MaxPointDose" xml:space="preserve">
+    <value>Punktdosis</value>
+  </data>
+  <data name="MUPerFraction" xml:space="preserve">
+    <value>MUs pro Fraktion</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="SumOfPTVs" xml:space="preserve">
+    <value>Alle PTVs</value>
+  </data>
+  <data name="V10Volume" xml:space="preserve">
+    <value>V10 Volumen (inkl. PTVs)</value>
+  </data>
+  <data name="V12Volume" xml:space="preserve">
+    <value>V12 Volumen (inkl. PTVs)</value>
+  </data>
+  <data name="Volumes" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="DeliveredBeams" xml:space="preserve">
+    <value>Abbestrahlte Beams</value>
+  </data>
+  <data name="DeliveredMU" xml:space="preserve">
+    <value>Bestrahlt</value>
+  </data>
+  <data name="DeliveredTime" xml:space="preserve">
+    <value>Bestrahlungszeit</value>
+  </data>
+  <data name="Fraction" xml:space="preserve">
+    <value>Fraktion</value>
+  </data>
+  <data name="kVImage" xml:space="preserve">
+    <value>Anzahl kV</value>
+  </data>
+  <data name="Makeup Fraction" xml:space="preserve">
+    <value>Makeup Fraktion</value>
+  </data>
+  <data name="DeliveryReport" xml:space="preserve">
+    <value>Bestrahlung</value>
+  </data>
+  <data name="DeliveryTime" xml:space="preserve">
+    <value>Gesamt</value>
+  </data>
+  <data name="FractionEnd" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="FractionId" xml:space="preserve">
+    <value>Fraktion</value>
+  </data>
+  <data name="FractionsAll" xml:space="preserve">
+    <value>Gesamt</value>
+  </data>
+  <data name="FractionStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="FractionSummary" xml:space="preserve">
+    <value>Zusammenfassung Fraktion</value>
+  </data>
+  <data name="FractionTotal" xml:space="preserve">
+    <value>Dauer</value>
+  </data>
+  <data name="GantryTime" xml:space="preserve">
+    <value>Gantry</value>
+  </data>
+  <data name="ImageTime" xml:space="preserve">
+    <value>kV Bild</value>
+  </data>
+  <data name="InitTime" xml:space="preserve">
+    <value>Init</value>
+  </data>
+  <data name="LinacTime" xml:space="preserve">
+    <value>Linac</value>
+  </data>
+  <data name="NonZeroBeams" xml:space="preserve">
+    <value>Beams</value>
+  </data>
+  <data name="PlanningReport" xml:space="preserve">
+    <value>Planung</value>
+  </data>
+  <data name="ReportGenerator" xml:space="preserve">
+    <value>Report Generator</value>
+  </data>
+  <data name="SetupTime" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="TableTime" xml:space="preserve">
+    <value>Tisch</value>
+  </data>
+  <data name="TimingDetails" xml:space="preserve">
+    <value>Zeitverwendung</value>
+  </data>
+  <data name="TotalTime" xml:space="preserve">
+    <value>Gesamt</value>
+  </data>
+  <data name="TreatmentDeliveryReport" xml:space="preserve">
+    <value>Bestrahlung</value>
+  </data>
+  <data name="TreatmentPlanningReport" xml:space="preserve">
+    <value>Bestrahlungsplanung</value>
+  </data>
+  <data name="DoseInMicroGy" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="ImageAquired" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+  <data name="kVImages" xml:space="preserve">
+    <value>kV Aufnahmen</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="DeliveredMUFromMV" xml:space="preserve">
+    <value>MV MU</value>
+  </data>
+  <data name="TotalkVDose" xml:space="preserve">
+    <value>Gesamte kV Dosis</value>
+  </data>
+  <data name="TotalkVImages" xml:space="preserve">
+    <value>Gesamtanzahl kV Aufnahmen</value>
+  </data>
+  <data name="TotalkVImagesForAAandTA" xml:space="preserve">
+    <value>davon für AA und TA benutzt</value>
+  </data>
+  <data name="TotalkVImagesForInTreatment" xml:space="preserve">
+    <value>davon während der Behandlung gemacht</value>
+  </data>
+  <data name="kVImagesShort" xml:space="preserve">
+    <value>Zusammenfassung kV Aufnahmen</value>
+  </data>
+  <data name="PatientHeader" xml:space="preserve">
+    <value>Patienten Information</value>
+  </data>
+  <data name="at" xml:space="preserve">
+    <value>am</value>
+  </data>
+  <data name="CommentPointDose" xml:space="preserve">
+    <value>* Punktdosis ist definiert als die Dosis, die ein Volumen von 35 mm³ erhält</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="MostCommonParameter" xml:space="preserve">
+    <value>Meist benutze Parameter für die kV Bildgebung</value>
+  </data>
+  <data name="MU" xml:space="preserve">
+    <value>MU</value>
+  </data>
+  <data name="ProcessingTime" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="TotalkVImagesForAA" xml:space="preserve">
+    <value>davon für AA benutzt</value>
+  </data>
+  <data name="TotalkVImagesForTA" xml:space="preserve">
+    <value>davon für TA benutzt</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="PrintPDF" xml:space="preserve">
+    <value>PDF erzeugen</value>
+  </data>
+  <data name="TreatmentTime" xml:space="preserve">
+    <value>Behandlungszeit</value>
+  </data>
+</root>
