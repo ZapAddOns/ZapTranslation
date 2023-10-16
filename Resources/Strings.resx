@@ -591,4 +591,10 @@
   <data name="FileNotFoundErrorText" xml:space="preserve">
     <value>Couldn't find file '{0}'</value>
   </data>
+  <data name="ClientOpenErrorCaption" xml:space="preserve">
+    <value>Error opening ZapClient</value>
+  </data>
+  <data name="ClientOpenErrorText" xml:space="preserve">
+    <value>Could not open ZapClient for server {0} on port {1} for user '{2}'</value>
+  </data>
 </root>

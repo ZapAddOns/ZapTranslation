@@ -151,6 +151,24 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error opening ZapClient.
+        /// </summary>
+        internal static string ClientOpenErrorCaption {
+            get {
+                return ResourceManager.GetString("ClientOpenErrorCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not open ZapClient for server {0} on port {1} for user &apos;{2}&apos;.
+        /// </summary>
+        internal static string ClientOpenErrorText {
+            get {
+                return ResourceManager.GetString("ClientOpenErrorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Close.
         /// </summary>
         internal static string Close {
