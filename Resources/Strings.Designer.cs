@@ -295,6 +295,15 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Density Model.
+        /// </summary>
+        internal static string DensityModel {
+            get {
+                return ResourceManager.GetString("DensityModel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dose.
         /// </summary>
         internal static string Dose {

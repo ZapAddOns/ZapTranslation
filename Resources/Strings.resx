@@ -597,4 +597,7 @@
   <data name="ClientOpenErrorText" xml:space="preserve">
     <value>Could not open ZapClient for server {0} on port {1} for user '{2}'</value>
   </data>
+  <data name="DensityModel" xml:space="preserve">
+    <value>Density Model</value>
+  </data>
 </root>
