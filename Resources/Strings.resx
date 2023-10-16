@@ -585,4 +585,10 @@
   <data name="TreatmentTime" xml:space="preserve">
     <value>Treatment time</value>
   </data>
+  <data name="FileNotFoundErrorCaption" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="FileNotFoundErrorText" xml:space="preserve">
+    <value>Couldn't find file '{0}'</value>
+  </data>
 </root>

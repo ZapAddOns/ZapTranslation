@@ -340,6 +340,24 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to File not found.
+        /// </summary>
+        internal static string FileNotFoundErrorCaption {
+            get {
+                return ResourceManager.GetString("FileNotFoundErrorCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Couldn&apos;t find file &apos;{0}&apos;.
+        /// </summary>
+        internal static string FileNotFoundErrorText {
+            get {
+                return ResourceManager.GetString("FileNotFoundErrorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fraction.
         /// </summary>
         internal static string Fraction {
