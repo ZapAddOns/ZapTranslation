@@ -223,6 +223,24 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to CT Density Model.
+        /// </summary>
+        internal static string CTDensityModel {
+            get {
+                return ResourceManager.GetString("CTDensityModel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CT value.
+        /// </summary>
+        internal static string CTValue {
+            get {
+                return ResourceManager.GetString("CTValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to D.
         /// </summary>
         internal static string D {
@@ -291,6 +309,15 @@ namespace ZapTranslation.Resources {
         internal static string DeliveryTime {
             get {
                 return ResourceManager.GetString("DeliveryTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Density.
+        /// </summary>
+        internal static string Density {
+            get {
+                return ResourceManager.GetString("Density", resourceCulture);
             }
         }
         
@@ -669,6 +696,15 @@ namespace ZapTranslation.Resources {
         internal static string Makeup_Fraction {
             get {
                 return ResourceManager.GetString("Makeup Fraction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Material.
+        /// </summary>
+        internal static string Material {
+            get {
+                return ResourceManager.GetString("Material", resourceCulture);
             }
         }
         

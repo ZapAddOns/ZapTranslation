@@ -600,4 +600,16 @@
   <data name="DensityModel" xml:space="preserve">
     <value>Density Model</value>
   </data>
+  <data name="CTValue" xml:space="preserve">
+    <value>CT value</value>
+  </data>
+  <data name="Density" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="CTDensityModel" xml:space="preserve">
+    <value>CT Density Model</value>
+  </data>
 </root>

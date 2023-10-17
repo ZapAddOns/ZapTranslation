@@ -603,4 +603,16 @@
   <data name="DensityModel" xml:space="preserve">
     <value>CT Dichte Modell</value>
   </data>
+  <data name="CTValue" xml:space="preserve">
+    <value>CT Wert</value>
+  </data>
+  <data name="Density" xml:space="preserve">
+    <value>Dichte</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="CTDensityModel" xml:space="preserve">
+    <value>CT Dichte Tabelle</value>
+  </data>
 </root>
