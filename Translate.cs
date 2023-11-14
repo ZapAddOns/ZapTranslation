@@ -9,7 +9,7 @@ namespace ZapTranslation
 
         public static string GetString(string text)
         {
-            return rm.GetString(text);
+            return rm.GetString(text) ?? "Unknown";
         }
     }
 }
