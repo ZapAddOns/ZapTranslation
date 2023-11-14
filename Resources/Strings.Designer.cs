@@ -61,6 +61,24 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Autoalignment Images.
+        /// </summary>
+        internal static string AAImages {
+            get {
+                return ResourceManager.GetString("AAImages", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fraction {0} from {1} at {2}.
+        /// </summary>
+        internal static string AAImagesCaption {
+            get {
+                return ResourceManager.GetString("AAImagesCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Alignment.
         /// </summary>
         internal static string Alignment {

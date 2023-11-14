@@ -612,4 +612,10 @@
   <data name="CTDensityModel" xml:space="preserve">
     <value>CT Density Model</value>
   </data>
+  <data name="AAImages" xml:space="preserve">
+    <value>Autoalignment Images</value>
+  </data>
+  <data name="AAImagesCaption" xml:space="preserve">
+    <value>Fraction {0} from {1} at {2}</value>
+  </data>
 </root>

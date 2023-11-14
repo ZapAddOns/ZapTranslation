@@ -615,4 +615,10 @@
   <data name="CTDensityModel" xml:space="preserve">
     <value>CT Dichte Tabelle</value>
   </data>
+  <data name="AAImages" xml:space="preserve">
+    <value>Autoalignment Bilder</value>
+  </data>
+  <data name="AAImagesCaption" xml:space="preserve">
+    <value>Fraktion {0} vom {1} um {2}</value>
+  </data>
 </root>
