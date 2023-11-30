@@ -61,7 +61,7 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Autoalignment Images.
+        ///   Looks up a localized string similar to AutoAlignment Images.
         /// </summary>
         internal static string AAImages {
             get {
@@ -124,11 +124,29 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to AutoAlignment.
+        /// </summary>
+        internal static string AutoAlignment {
+            get {
+                return ResourceManager.GetString("AutoAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Axial.
         /// </summary>
         internal static string AxialDegrees {
             get {
                 return ResourceManager.GetString("AxialDegrees", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Beam.
+        /// </summary>
+        internal static string Beam {
+            get {
+                return ResourceManager.GetString("Beam", resourceCulture);
             }
         }
         
@@ -259,6 +277,15 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cum.
+        /// </summary>
+        internal static string Cum {
+            get {
+                return ResourceManager.GetString("Cum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to D.
         /// </summary>
         internal static string D {
@@ -349,6 +376,15 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Deviation.
+        /// </summary>
+        internal static string Deviation {
+            get {
+                return ResourceManager.GetString("Deviation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dose.
         /// </summary>
         internal static string Dose {
@@ -426,6 +462,15 @@ namespace ZapTranslation.Resources {
         internal static string FileNotFoundErrorText {
             get {
                 return ResourceManager.GetString("FileNotFoundErrorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Flagged.
+        /// </summary>
+        internal static string Flagged {
+            get {
+                return ResourceManager.GetString("Flagged", resourceCulture);
             }
         }
         
@@ -781,6 +826,24 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Measurements.
+        /// </summary>
+        internal static string Measurements {
+            get {
+                return ResourceManager.GetString("Measurements", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Measurements for fraction {0} from {1} at {2}.
+        /// </summary>
+        internal static string MeasurementsCaption {
+            get {
+                return ResourceManager.GetString("MeasurementsCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Medical Id.
         /// </summary>
         internal static string MedicalId {
@@ -831,6 +894,24 @@ namespace ZapTranslation.Resources {
         internal static string MUPerFraction {
             get {
                 return ResourceManager.GetString("MUPerFraction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MV Imager Diagram.
+        /// </summary>
+        internal static string MVImagerDiagram {
+            get {
+                return ResourceManager.GetString("MVImagerDiagram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fraction {0} from {1} at {2}.
+        /// </summary>
+        internal static string MVImagerDiagramCaption {
+            get {
+                return ResourceManager.GetString("MVImagerDiagramCaption", resourceCulture);
             }
         }
         
@@ -1024,6 +1105,15 @@ namespace ZapTranslation.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pitch.
+        /// </summary>
+        internal static string Pitch {
+            get {
+                return ResourceManager.GetString("Pitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Plan.
         /// </summary>
         internal static string Plan {
@@ -1200,6 +1290,33 @@ namespace ZapTranslation.Resources {
         internal static string ReportGenerator {
             get {
                 return ResourceManager.GetString("ReportGenerator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Roll.
+        /// </summary>
+        internal static string Roll {
+            get {
+                return ResourceManager.GetString("Roll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rotation Diagram.
+        /// </summary>
+        internal static string RotationDiagram {
+            get {
+                return ResourceManager.GetString("RotationDiagram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fraction {0} from {1} at {2}.
+        /// </summary>
+        internal static string RotationDiagramCaption {
+            get {
+                return ResourceManager.GetString("RotationDiagramCaption", resourceCulture);
             }
         }
         
@@ -1551,6 +1668,15 @@ namespace ZapTranslation.Resources {
         internal static string Y {
             get {
                 return ResourceManager.GetString("Y", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yaw.
+        /// </summary>
+        internal static string Yaw {
+            get {
+                return ResourceManager.GetString("Yaw", resourceCulture);
             }
         }
         

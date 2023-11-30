@@ -616,9 +616,51 @@
     <value>CT Dichte Tabelle</value>
   </data>
   <data name="AAImages" xml:space="preserve">
-    <value>Autoalignment Bilder</value>
+    <value>AutoAlignment Bilder</value>
   </data>
   <data name="AAImagesCaption" xml:space="preserve">
     <value>Fraktion {0} vom {1} um {2}</value>
+  </data>
+  <data name="AutoAlignment" xml:space="preserve">
+    <value>AutoAlignment</value>
+  </data>
+  <data name="Beam" xml:space="preserve">
+    <value>Beam</value>
+  </data>
+  <data name="Cum" xml:space="preserve">
+    <value>Cum</value>
+  </data>
+  <data name="Deviation" xml:space="preserve">
+    <value>Abweichung</value>
+  </data>
+  <data name="MVImagerDiagram" xml:space="preserve">
+    <value>MV Imager Diagramm</value>
+  </data>
+  <data name="MVImagerDiagramCaption" xml:space="preserve">
+    <value>Fraktion {0} vom {1} um {2}</value>
+  </data>
+  <data name="Pitch" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="Roll" xml:space="preserve">
+    <value>Roll</value>
+  </data>
+  <data name="RotationDiagram" xml:space="preserve">
+    <value>Rotation Diagramm</value>
+  </data>
+  <data name="RotationDiagramCaption" xml:space="preserve">
+    <value>Fraktion {0} vom {1} um {2}</value>
+  </data>
+  <data name="Yaw" xml:space="preserve">
+    <value>Yaw</value>
+  </data>
+  <data name="Flagged" xml:space="preserve">
+    <value>Markiert</value>
+  </data>
+  <data name="Measurements" xml:space="preserve">
+    <value>Messungen</value>
+  </data>
+  <data name="MeasurementsCaption" xml:space="preserve">
+    <value>Messungen für Fraktion {0} vom {1} um {2}</value>
   </data>
 </root>
